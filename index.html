@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>AAC.co</title>
+	<link href="https://unpkg.com/sanitize.css" rel="stylesheet" />
+	<link rel="stylesheet" href="styles/style.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+</head>
+
+<body>
+	<!-- header -->
+	<header class="header header_top">
+		<div id="header"></div>
+	</header>
+	
+	<section class="mv">
+	</section>
+	
+	<main>
+		<section class="business">
+			<h2 class="heading_top">BUSINESS</h2>
+			<span class="heading_top_sub">事業紹介</span>
+			<div class="wrapper">
+				<a class="item" href="business.html">
+					<div class="image_wrapper">
+						<div class="image image_1"></div>
+					</div>
+					<div class="text_wrapper">
+						<h3 class="title">業務システム開発</h3>
+						<p class="sub_title">BUSINESS SYSTEM</p>
+						<p class="text">
+							業務上のお困りごとの改善と効率化を支援します。
+						</p>
+						<!-- <div class="button" href="">詳しく見る<i class="fas fa-caret-right"></i></div> -->
+					</div>
+				</a>
+				<a class="item" href="business.html">
+					<div class="image_wrapper">
+						<div class="image image_2"></div>
+					</div>
+					<div class="text_wrapper">
+						<h3 class="title">WEBシステム開発</h3>
+						<p class="sub_title">WEB SYSTEM</p>
+						<p class="text">
+							BtoC向けサービスシステム製作などに対応します。
+						</p>
+						<!-- <div class="button">詳しく見る<i class="fas fa-caret-right"></i></div> -->
+					</div>
+				</a>
+				<a class="item" href="business.html">
+					<div class="image_wrapper">
+						<div class="image image_3"></div>
+					</div>
+					<div class="text_wrapper">
+						<h3 class="title">WEBサイト製作</h3>
+						<p class="sub_title">WEB SITE</p>
+						<p class="text">
+							組織やサービスの魅力が伝わるwebサイトをご提案します。
+						</p>
+						<!-- <div class="button">詳しく見る<i class="fas fa-caret-right"></i></div> -->
+					</div>
+				</a>
+			</div>
+		</section>
+
+		<section class="news">
+			<div class="wrapper">
+				<h2 class="heading_top">NEWS</h2>
+				<span class="heading_top_sub">お知らせ</span>
+				<a class="news_table" href="">
+					<table class="tbl_border">
+						<tr>
+							<th>2022.10.01</th>
+							<td>
+								ホームページを更新しました
+							</td>
+						</tr>
+						<tr>
+							<th>2022.09.01</th>
+							<td>
+								ホームページを更新しました
+							</td>
+						</tr>
+						<tr>
+							<th>2022.08.01</th>
+							<td>
+								ホームページを更新しました
+							</td>
+						</tr>
+					</table>
+				</a>
+				<a class="button" href="">詳しく見る<i class="fas fa-caret-right"></i></a>
+		</section>
+		
+		</div>
+		<section class="contact">
+			<div class="wrapper">
+				<a class="item" href="/contact.html">
+					<h2 class="heading_top">CONTACT</h2>
+					<span class="heading_top_sub">お問合せ</span>
+					<p class="text">
+						Webサイト製作やシステム開発のご相談など<br>
+						お気軽にお問い合わせください
+					</p>
+					<div class="button" href="">お問い合わせはこちら</div>
+				</a>
+			</div>
+		</section>
+	</main>
+	<!-- footer -->
+	<footer class="footer">
+		<div id="footer"></div>
+	</footer>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<!-- header -->
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('#header').load('inc/header.html');
+		});
+	</script>
+	<!-- footer -->
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('#footer').load('inc/footer.html');
+		});
+	</script>
+</body>
+
+</html>
