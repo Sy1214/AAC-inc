@@ -12,20 +12,46 @@
 </head>
 
 <body>
-	<!-- header -->
 	<header class="header header_top">
 		<div id="header"></div>
 	</header>
 	
 	<section class="mv">
 	</section>
-	
+		<section class="news" id="news">
+		<div class="wrapper">
+			<h2 class="heading_top">NEWS</h2>
+			<span class="heading_top_sub">お知らせ</span>
+			<a class="news_table" href="">
+				<table class="tbl_border">
+					<tr>
+						<th>2022.10.01</th>
+						<td>
+							ホームページを更新しました
+						</td>
+					</tr>
+					<tr>
+						<th>2022.09.01</th>
+						<td>
+							ホームページを更新しました
+						</td>
+					</tr>
+					<tr>
+						<th>2022.08.01</th>
+						<td>
+							ホームページを更新しました
+						</td>
+					</tr>
+				</table>
+			</a>
+			<a class="button" href="">詳しく見る<i class="fas fa-caret-right"></i></a>
+	</section>
 	<main>
-		<section class="business">
+		<section class="business" id="business">
 			<h2 class="heading_top">BUSINESS</h2>
 			<span class="heading_top_sub">事業紹介</span>
 			<div class="wrapper">
-				<a class="item" href="business.html">
+				<a class="item" href="">
 					<div class="image_wrapper">
 						<div class="image image_1"></div>
 					</div>
@@ -35,10 +61,9 @@
 						<p class="text">
 							業務上のお困りごとの改善と効率化を支援します。
 						</p>
-						<!-- <div class="button" href="">詳しく見る<i class="fas fa-caret-right"></i></div> -->
 					</div>
 				</a>
-				<a class="item" href="business.html">
+				<a class="item" href="">
 					<div class="image_wrapper">
 						<div class="image image_2"></div>
 					</div>
@@ -48,10 +73,9 @@
 						<p class="text">
 							BtoC向けサービスシステム製作などに対応します。
 						</p>
-						<!-- <div class="button">詳しく見る<i class="fas fa-caret-right"></i></div> -->
 					</div>
 				</a>
-				<a class="item" href="business.html">
+				<a class="item" href="">
 					<div class="image_wrapper">
 						<div class="image image_3"></div>
 					</div>
@@ -61,45 +85,14 @@
 						<p class="text">
 							組織やサービスの魅力が伝わるwebサイトをご提案します。
 						</p>
-						<!-- <div class="button">詳しく見る<i class="fas fa-caret-right"></i></div> -->
 					</div>
 				</a>
 			</div>
 		</section>
-
-		<section class="news">
-			<div class="wrapper">
-				<h2 class="heading_top">NEWS</h2>
-				<span class="heading_top_sub">お知らせ</span>
-				<a class="news_table" href="">
-					<table class="tbl_border">
-						<tr>
-							<th>2022.10.01</th>
-							<td>
-								ホームページを更新しました
-							</td>
-						</tr>
-						<tr>
-							<th>2022.09.01</th>
-							<td>
-								ホームページを更新しました
-							</td>
-						</tr>
-						<tr>
-							<th>2022.08.01</th>
-							<td>
-								ホームページを更新しました
-							</td>
-						</tr>
-					</table>
-				</a>
-				<a class="button" href="">詳しく見る<i class="fas fa-caret-right"></i></a>
-		</section>
-		
 		</div>
-		<section class="contact">
+		<section class="contact" id="contact">
 			<div class="wrapper">
-				<a class="item" href="/contact.html">
+				<a class="item" href="">
 					<h2 class="heading_top">CONTACT</h2>
 					<span class="heading_top_sub">お問合せ</span>
 					<p class="text">
@@ -111,23 +104,11 @@
 			</div>
 		</section>
 	</main>
-	<!-- footer -->
 	<footer class="footer">
 		<div id="footer"></div>
 	</footer>
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-	<!-- header -->
-	<script type="text/javascript">
-		$(document).ready(function () {
-			$('#header').load('inc/header.html');
-		});
-	</script>
-	<!-- footer -->
-	<script type="text/javascript">
-		$(document).ready(function () {
-			$('#footer').load('inc/footer.html');
-		});
-	</script>
+	<script src="js/inc.js"></script>
 </body>
 
 </html>
