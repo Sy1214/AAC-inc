@@ -1,8 +1,10 @@
-* {
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;200;300;400;500;600;700&display=swap');* {
   font-size: 62.5%;
   box-sizing: border-box;
   font-family: "Yu Gothic";
   margin: 0;
+  color: #333;
 }
 
 .clearfix::after {
@@ -25,7 +27,7 @@ address {
 .header {
   position: relative;
   background-color: #00bcd4;
-  padding: 8px 0;
+  /* padding: 8px 0; */
 }
 
 @media (max-width: 768px) {
@@ -49,8 +51,8 @@ address {
 
 @media (min-width: 768px) {
   .header_wrapper {
-    width: 98%;
-    border-radius: 10px;
+    /* width: 98%; */
+    /* border-radius: 10px; */
     box-shadow: 0px 5px 4px rgba(0, 0, 0, 0.2);
     background-color: #fff;
   }
@@ -85,11 +87,18 @@ address {
   cursor: pointer;
 }
 
+.logo_wrapper p{
+  font-family: 'Advent Pro', sans-serif;
+  letter-spacing: 0.1rem;
+  font-size: 2.0rem;
+  font-weight: 700;
+}
+
 .logo_wrapper:hover {
   opacity: 0.8;
 }
 
-.img_logo {
+/* .img_logo {
   width: 200px;
 }
 
@@ -97,7 +106,7 @@ address {
   .img_logo {
     width: 200px;
   }
-}
+} */
 
 #menu_toggle {
   display: none;
@@ -115,7 +124,7 @@ address {
 
 /* mv */
 .mv {
-  height: 88vh;
+  height: 92vh;
   background: url(../img/back.png) center center / cover no-repeat;
 }
 
@@ -338,7 +347,7 @@ i {
   margin: 32px 0;
   text-align: center;
 
-  background-image: url(./images/top_left.svg);
+  background-image: url(./img/top_left.svg);
 }
 
 @media (min-width: 768px) {
@@ -428,19 +437,19 @@ i {
 .business .image_1 {
   background-position: center center;
   background-size: cover;
-  background-image: url(../images/business1.png);
+  background-image: url(../img/business1.png);
 }
 
 .business .image_2 {
   background-position: center center;
   background-size: cover;
-  background-image: url(../images/business2.png);
+  background-image: url(../img/business2.png);
 }
 
 .business .image_3 {
   background-position: center center;
   background-size: cover;
-  background-image: url(../images/business3.png);
+  background-image: url(../img/business3.png);
 }
 
 /* .business .image_wrapper {
@@ -651,7 +660,7 @@ i {
   width: 100%;
   max-width: 960px;
   background-color: azure;
-  background: url(../images/contact_back.png) no-repeat;
+  background: url(../img/contact_back.png) no-repeat;
   box-shadow: 0px 5px 8px 3px #ccc inset;
 }
 
