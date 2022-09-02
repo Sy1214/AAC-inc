@@ -255,6 +255,47 @@ a {
   }
 }
 
+.wrapper_cc{
+  font-size: 2rem;
+  position: absolute;
+  top: 54%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99;
+}
+
+.wrapper_cc .main{
+  letter-spacing: 0.2em;
+  font-family: 'Advent Pro', sans-serif;
+  font-weight: 700;
+  font-size: 5.6rem;
+  text-align: center;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .wrapper_cc .main{
+    font-size: 9.2rem;
+  }
+}
+
+.fadeIn{
+  animation-name:fadeInAnime;
+  animation-duration:1s;
+  animation-fill-mode:forwards;
+  opacity:0;
+  }
+  
+  @keyframes fadeInAnime{
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+
 /* --------------------------------
  * top
  * -------------------------------- */
